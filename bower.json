@@ -1,0 +1,21 @@
+{
+  "name": "angular-sample",
+  "version": "0.0.0",
+  "homepage": "https://github.com/morinpic/angular-sample",
+  "authors": [
+    "moriken <kenta_mori@waku-2.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.2.26",
+    "jquery": "~2.1.1"
+  }
+  "overrides": {
+    "angular": {
+      "dependencies": {
+        "jquery": "*"
+      }
+    }
+  }
+}
