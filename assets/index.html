@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app>
+  <head>
+    <meta charset="UTF-8">
+    <title>Angular Sample</title>
+
+    <!-- build:css css/app.css -->
+    <link rel="stylesheet" href="css/app.css">
+    <!-- endbuild -->
+
+  </head>
+  <body>
+    <div>
+      <label>Name:</label>
+      <input type="text" ng-model="yourName" placeholder="Enter a name here">
+      <hr>
+      <h1>Hello {{yourName}}!</h1>
+    </div>
+
+    <!-- build:js js/vendor.js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/angular/angular.js"></script>
+    <!-- endbuild -->
+
+  </body>
+</html>
